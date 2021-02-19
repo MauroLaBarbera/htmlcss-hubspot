@@ -49,7 +49,8 @@ a {
     color: #33475b;
 }
 
-h1 {
+h1, 
+h2 {
     font-weight: bold;
     
 }
@@ -96,6 +97,11 @@ p {
     background-color: #fe775a;
     color: #fff;
     border: 0;
+}
+
+.btn-big {
+    padding: 20px;
+    min-width: 170px;
 }
 
 /* HEAD TOP */
@@ -165,3 +171,47 @@ p {
 .cubo h1 {
     font-size: 30px;
 }
+
+/* FREE HUBSPOT */
+.bg-white {
+    text-align: center;
+    height: 400px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
+
+.bg-white .w-30 img {
+    width: 170px;
+    margin-bottom: 20px;
+}
+
+.libro {
+    transform: translateY(50%);
+}
+
+.bg-white .w-70 {
+    text-align: left;
+    transform: translateY(30%);
+    padding-left: 20px;
+}
+
+.border {
+    display: block;
+    width: 450px;
+    border: 1px solid rgba(0, 0, 0,0.5);
+    position: absolute;
+    top: 62%;
+    left: 42%;
+}
+
+.fa-check-circle {
+    color: #fe775a;
+    padding: 10px;
+}
+
+.fa-check-circle:first-child {
+    padding-left: 0px;
+}
+
+/* SECTION COLUMNS */
