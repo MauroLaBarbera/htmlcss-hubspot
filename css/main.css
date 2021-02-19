@@ -175,10 +175,13 @@ p {
 /* FREE HUBSPOT */
 .bg-white {
     text-align: center;
-    height: 400px;
     background: #fff;
     border-radius: 5px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
+
+.book .bg-white {
+    height: 400px;
 }
 
 .bg-white .w-30 img {
@@ -187,12 +190,12 @@ p {
 }
 
 .libro {
-    transform: translateY(50%);
+    transform: translateY(40%);
 }
 
 .bg-white .w-70 {
     text-align: left;
-    transform: translateY(30%);
+    transform: translateY(20%);
     padding-left: 20px;
 }
 
@@ -215,3 +218,8 @@ p {
 }
 
 /* SECTION COLUMNS */
+.columns .bg-white {
+    width: 25%;
+    height: 700px;
+    margin-top: 20px;
+}
