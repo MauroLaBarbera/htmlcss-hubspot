@@ -6,10 +6,13 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    color: #33475b;
+    background: #f4f9fd;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, p {
     font-weight: 500;
+    padding: 20px 0;
 }
 
 /* UTILITIES */
@@ -29,20 +32,30 @@ h1, h2, h3, h4, h5 {
     margin: 0 auto;
 }
 
-.b-right {
-    border-right: 1px solid #000;
-    margin: 0px 25px;
-    line-height: 1;
-}
 
 .container-S {
     width: 1000px;
     margin: 0 auto;
 }
 
+.b-right {
+    border-right: 1px solid #000;
+    margin: 0px 25px;
+    line-height: 1;
+}
+
 a {
     text-decoration: none;
-    color: #000;
+    color: #33475b;
+}
+
+h1 {
+    font-weight: bold;
+    
+}
+
+p {
+    padding: 20px 0;
 }
 
 .float-left {
@@ -57,6 +70,7 @@ a {
     width: 50%;
     display: inline-block;
 }
+
 
 .w-30 {
     width: 30%;
@@ -114,4 +128,40 @@ a {
 
 .head-bottom .float-right i {
     padding: 10px;
+}
+
+/* JUMBOTRON */
+.jumbotron {
+    position: relative;
+    height: 700px;
+    background-image: url(../img-hubspot/jumbotron.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.jumbotext h1 {
+    font-size: 40px;
+}
+
+.banner-azure {
+    position: relative;
+    border-top: 3px solid #33475b;
+    bottom: 110px;
+    height: 105px;
+    background: #afebe4;
+}
+
+/* SECTION CUBO */
+.cubo {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.cubo img {
+    width: 300px;
+}
+
+.cubo h1 {
+    font-size: 30px;
 }
