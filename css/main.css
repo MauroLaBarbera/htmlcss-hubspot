@@ -388,3 +388,22 @@ footer {
     display: inline-block;
     width: calc(100% / 4 - 25px);
 }
+
+/* LANGUAGES */
+.lang {
+    text-align: center;
+    border-bottom: 1px solid #fff;
+    margin: 50px auto;
+}
+}
+
+.lang li{
+    display: inline-block;
+    margin: 20px;
+}
+
+.lang a {
+    color: #dadee0;
+}
+
+/* BOTTOM FOOTER */
