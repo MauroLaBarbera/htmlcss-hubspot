@@ -15,6 +15,11 @@ h1, h2, h3, h4, h5, p {
     padding: 15px 0;
 }
 
+h1 {
+    font-size: 40px;
+}
+
+
 /* UTILITIES */
 .clearfix {
     content: "";
@@ -66,6 +71,7 @@ p {
 
 .float-right {
     float: right;
+    text-align: right;
 }
 
 .w-50 {
@@ -91,7 +97,8 @@ p {
     text-align: center;
     text-decoration: none;
     color: #fe775a;
-    line-height: 1
+    line-height: 1;
+    font-size: 13px;
 }
 
 .btn-orange {
@@ -205,7 +212,7 @@ p {
 
 .bg-white .w-70 {
     text-align: left;
-    transform: translateY(20%);
+    transform: translateY(30%);
     padding-left: 20px;
 }
 
@@ -306,4 +313,36 @@ p {
     font-size: 40px;
 }
 
-/* ASSOSATION */
+/* ASSOCIATES */
+.table {
+    width: 100%;
+    background: #fff;
+    padding: 50px;
+}
+
+.top-tab .w-70 img {
+    width: 130px;
+}
+
+.top-tab .w-70 {
+    padding: 30px;
+}
+
+.colon-top {
+    width: calc(100% / 4);
+    line-height: 50px;
+    padding-left: 70px;
+}
+
+/* TABLE WITH WOMAN */
+.bottom-tab img {
+    width: 50%;
+}
+
+.bottom-tab {
+    padding-top: 100px;
+}
+
+.bottom-tab .btn {
+    margin: 30px 0;
+}
