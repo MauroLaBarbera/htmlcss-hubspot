@@ -156,7 +156,7 @@ p {
 }
 
 .jumbotext h1 {
-    font-size: 40px;
+    font-size: 50px;
 }
 
 .banner-azure {
@@ -319,11 +319,15 @@ p {
     height: 820px;
     background: #fff;
     padding: 50px;
+}
 
+.classpass {
+    width: 100%;
 }
 
 .top-tab .w-70 img {
     width: 130px;
+    vertical-align: middle;
 }
 
 .top-tab .w-70 {
@@ -332,7 +336,7 @@ p {
 
 .colon-top {
     width: calc(100% / 4);
-    line-height: 50px;
+    line-height: 60px;
     padding-left: 70px;
 }
 
@@ -349,7 +353,7 @@ p {
     margin: 30px 0;
 }
 
-/* TOP FOOTER */
+/*FOOTER TOP  */
 footer {
     height: 100vh;
     background: #32495b;
@@ -395,9 +399,9 @@ footer {
     border-bottom: 1px solid #fff;
     margin: 50px auto;
 }
-}
 
-.lang li{
+.lang li {
+    list-style: none;
     display: inline-block;
     margin: 20px;
 }
@@ -406,4 +410,9 @@ footer {
     color: #dadee0;
 }
 
-/* BOTTOM FOOTER */
+/*FOOTER BOTTOM  */
+.foot-bottom h3, 
+.foot-bottom a {
+    color: #dadee0;
+    font-weight: bold;
+}
