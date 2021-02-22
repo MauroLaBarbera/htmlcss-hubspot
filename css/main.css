@@ -119,6 +119,9 @@ p {
 }
 
 .head-top {
+    width: 100%;
+    position: fixed;
+    z-index: 10;
     background: #f4f9fd;
     border-bottom: 1px solid #000;
 }
@@ -139,6 +142,7 @@ p {
 /* HEAD BOTTOM */
 .head-bottom {
     background:#fff;
+    padding-top: 100px;
 }
 
 .head-bottom .float-right i {
