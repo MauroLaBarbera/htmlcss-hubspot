@@ -244,13 +244,16 @@ p {
 .fa-search:hover::before {
     content: "Search...";
     color: gray; 
-    transition: ;
+    transition:  1s;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
 }
 
 .fa-search {
-    width: 10px;
+    width: 1px;
     color: #0aa7bf;
-    transition: width 1s;
+    transition:  0.5s ease-in-out;
+    border: 1px solid #f4f9fd;
 }
 
 /* HEAD BOTTOM */
