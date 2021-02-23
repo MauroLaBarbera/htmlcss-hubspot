@@ -229,12 +229,28 @@ p {
     margin: 0 10px;
 }
 
-/* .float-right a {
-    margin: 0 10px;
-} */
+/* SEARCHABAR */
+.fa-search:hover {
+    width: 200px;
+    height: 25px;
+    background: #fff;
+    border: 1px solid #0aa7bf;
+    color: #fe775a;
+    border-radius: 10px;
+    padding: 3px;
+    text-align: left;
+}
+
+.fa-search:hover::before {
+    content: "Search...";
+    color: gray; 
+    transition: ;
+}
 
 .fa-search {
+    width: 10px;
     color: #0aa7bf;
+    transition: width 1s;
 }
 
 /* HEAD BOTTOM */
@@ -563,4 +579,5 @@ footer a:hover {
     border-radius: 10px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
     padding: 10px;
+    cursor: pointer;
 }
