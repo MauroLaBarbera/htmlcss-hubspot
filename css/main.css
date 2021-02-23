@@ -11,7 +11,6 @@ body {
 }
 
 h1, h2, h3, h4, h5, p {
-    font-weight: 500;
     padding: 15px 0;
 }
 
@@ -50,6 +49,65 @@ h1 {
       display: block;
     }
 
+/* DROPDOWN SOFTWARE */
+  .soft-dropdown:hover .soft-content {
+    display: block;
+  }
+  
+.soft-content {
+    left: 350px;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  /* COLONNE */
+.column {
+    height: 300px;
+    float: left;
+    text-align: left;
+    line-height: 1;
+    padding: 20px;
+  }
+  
+.col-left { 
+    width: 19%;
+    background: #ddd;
+}
+
+.col-right {
+    width: 80%;
+}
+
+.column .link2 {
+    margin-right: 130px;
+}
+
+.column .link {
+    margin: 5px 60px 25px 0;
+}
+
+.column .app {
+    margin: 10px 0;
+}
+
+.column a {
+    color: #00acb6;
+    font-size: 13px;
+    line-height: 1;
+}
+
+.column h3 {
+    display: inline-block;
+}
+
+.sub-col {
+    width: 46%;
+    margin: 2%;
+}
+
 /* HOVER */
 a:hover {
     color: #fe775a;
@@ -78,11 +136,6 @@ a:hover {
     margin: 0 auto;
 }
 
-
-.container-S {
-    width: 1000px;
-    margin: 0 auto;
-}
 
 .b-right {
     border-right: 1px solid #000;
@@ -170,11 +223,12 @@ p {
 .main-header ul li {
     display: inline-block;
     list-style: none;
-}
-
-.float-right a {
     margin: 0 10px;
 }
+
+/* .float-right a {
+    margin: 0 10px;
+} */
 
 .fa-search {
     color: #0aa7bf;
@@ -473,3 +527,20 @@ footer a:hover {
     color: #fe775a;
 }
 
+/* FLOAT CHAT */
+.chat {
+    position: fixed;
+    bottom: 0;
+    right: 10%;
+    z-index: 10;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: #425b76;
+    color: #fff;
+    font-size: 50px;
+    vertical-align: middle;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
