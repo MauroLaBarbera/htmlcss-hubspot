@@ -531,7 +531,7 @@ footer a:hover {
 .chat {
     position: fixed;
     bottom: 0;
-    right: 10%;
+    right: 5%;
     z-index: 10;
     width: 80px;
     height: 80px;
@@ -543,4 +543,21 @@ footer a:hover {
     text-align: center;
     padding: 10px;
     cursor: pointer;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+}
+
+.chat-top {
+    position: fixed;
+    bottom: 10%;
+    right: 5%;
+    width: 250px;
+    height: 130px;
+    background: #fff;
+    color: #000;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+    padding: 10px;
 }
